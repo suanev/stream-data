@@ -6,9 +6,7 @@
     "scheme": "stream.data",
     "slug": "streamData",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "androidStatusBar": {
       "barStyle": "light-content",
       "translucent": true,
@@ -25,6 +23,9 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFF"
       }
+    },
+    "ios": {
+      "bundleIdentifier": "org.name.streamdata"
     }
   }
 }
